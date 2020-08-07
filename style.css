@@ -1,0 +1,73 @@
+body {
+	background: black;
+}
+
+.contenedor {
+	width: 300px;
+	height: 40px;
+	font-size: 40px;
+	color: #fff;
+	line-height: 40px;
+	display: flex;
+	overflow: hidden;
+
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+ul {
+	list-style: none;
+	padding-left: 10px;	
+	animation: cambiar 20s infinite;
+}
+
+p,ul {
+	margin: 0;
+}
+
+@keyframes cambiar {
+
+	0%{ margin-top: 0; }
+	7%{ margin-top: 0; }
+
+	10%{ margin-top: -40px; }
+	17%{ margin-top: -40px; }
+
+	20%{ margin-top: -80px; }
+	27%{ margin-top: -80px; }
+
+	30%{ margin-top: -120px; }
+	37%{ margin-top: -120px; }
+
+	40%{ margin-top: -160px; }
+	47%{ margin-top: -160px; }
+
+	50%{ margin-top: -200px; }
+	57%{ margin-top: -200px; }
+
+	60%{ margin-top: -160px; }
+	67%{ margin-top: -160px; }
+
+	70%{ margin-top: -120px; }
+	75%{ margin-top: -120px; }
+
+	80%{ margin-top: -80px; }
+	85%{ margin-top: -80px; }
+
+	90%{ margin-top: -40px; }
+	95%{ margin-top: -40px; }
+
+	100%{ margin-top: 0; }
+}
+
+
+
+
+
+
+
+
